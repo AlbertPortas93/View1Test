@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/orange"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:background="@color/red"
+        android:fontFamily="@font/anton"
+        android:text="ANTON"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/green"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="CAESAR DRESSING"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
+        android:fontFamily="@font/titan_one"
+        android:text="Titan One"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/yellow"
+        android:fontFamily="@font/beth_ellen"
+        android:text="Beth Ellen"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/lastninja"
+        android:text="LastNinja"
+
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_1"
+        android:layout_toRightOf="@id/tv_1"
+        android:background="@color/white"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/magic_retro"
+        android:text="MagicRetro"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_1"
+        android:layout_toRightOf="@id/tv_1"
+        android:background="@color/white"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/doctor_glitch"
+        android:text="DoctorGlitch"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_3"
+        android:layout_toRightOf="@id/tv_3"
+        android:background="@color/white"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/pokemon_hollow"
+        android:text="Pokémon"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_2"
+        android:layout_toRightOf="@id/tv_2"
+        android:background="@color/white"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/stora"
+        android:text="STORA"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

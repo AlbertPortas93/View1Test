@@ -16,7 +16,6 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private Bundle icicle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,12 +58,11 @@ public class MainActivity extends AppCompatActivity {
             View child3 = getLayoutInflater().inflate(R.layout.layout3, null);
             fl_content.addView(child3);
             setContentView(R.layout.layout3);
-
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                     android.R.layout.simple_dropdown_item_1line, NAMES);
-            AutoCompleteTextView textView = (AutoCompleteTextView)
+            AutoCompleteTextView atv_Fruita = (AutoCompleteTextView)
                     findViewById(R.id.countries_list);
-            textView.setAdapter(adapter);
+            atv_Fruita.setAdapter(adapter);
             Button buttonSayHello = (Button) findViewById(R.id.btn_14);
             EditText nameText = (EditText) findViewById(R.id.countries_list);
             TextView textGreeting = (TextView) findViewById(R.id.textGreeting);

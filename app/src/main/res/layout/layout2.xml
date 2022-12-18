@@ -11,7 +11,7 @@
         android:background="@color/white"
         app:constraint_referenced_ids="btn_1,btn_2,btn_3,btn_4,btn_5,btn_6,btn_7,btn_8,btn_9,btn_10,btn_11,btn_12,btn_custom"
         app:flow_wrapMode="chain"
-        android:layout_margin="19dp"
+        android:layout_margin="30dp"
         tools:ignore="NotSibling">
     </androidx.constraintlayout.helper.widget.Flow>
         <Button

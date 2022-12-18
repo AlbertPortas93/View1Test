@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
             fl_content.removeAllViews();
             View child3 = getLayoutInflater().inflate(R.layout.layout3, null);
             fl_content.addView(child3);
-            setContentView(R.layout.layout3);
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                     android.R.layout.simple_dropdown_item_1line, NAMES);
             AutoCompleteTextView atv_Fruita = (AutoCompleteTextView)
